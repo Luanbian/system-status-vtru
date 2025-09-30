@@ -1,104 +1,34 @@
 {
+  "_comment": "the syntax should be { message:string } in array of status level",
+  "_example": "{ \"warn\": [ { \"message\": \"some warning\" } ] }",
   "search": {
-    "warn": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ],
-    "error": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ],
-    "maintenance": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ]
+    "warn": [{ "message": "Search is currently experiencing high latency." }],
+    "error": [{ "message": "Search service is currently down" }],
+    "maintenance": []
   },
   "studio": {
-    "warn": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ],
-    "error": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ],
-    "maintenance": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ]
+    "warn": [],
+    "error": [],
+    "maintenance": []
   },
   "admin": {
-    "warn": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ],
-    "error": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ],
-    "maintenance": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ]
+    "warn": [],
+    "error": [],
+    "maintenance": []
   },
   "slideshow": {
-    "warn": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ],
-    "error": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ],
-    "maintenance": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ]
+    "warn": [],
+    "error": [],
+    "maintenance": []
   },
   "stacks": {
-    "warn": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ],
-    "error": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ],
-    "maintenance": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ]
+    "warn": [],
+    "error": [],
+    "maintenance": []
   },
   "stores": {
-    "warn": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ],
-    "error": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ],
-    "maintenance": [
-      {
-        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      }
-    ]
+    "warn": [],
+    "error": [],
+    "maintenance": []
   }
 }
