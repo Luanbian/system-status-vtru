@@ -1,0 +1,27 @@
+{
+  "severity_options": "none | warn | error | maintenance",
+  "search": {
+    "severity": "none",
+    "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "studio": {
+    "severity": "none",
+    "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "admin": {
+    "severity": "none",
+    "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "slideshow": {
+    "severity": "none",
+    "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "stacks": {
+    "severity": "none",
+    "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "stores": {
+    "severity": "none",
+    "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  }
+}
