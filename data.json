@@ -2,7 +2,10 @@
   "_comment": "the syntax should be { message:string } in array of status level",
   "_example": "{ \"warn\": [ { \"message\": \"some warning\" } ] }",
   "search": {
-    "warn": [{ "message": "Search is currently experiencing high latency." }],
+    "warn": [
+      { "message": "Test message" },
+      { "message": "Search is currently experiencing high latency." }
+    ],
     "error": [{ "message": "Search service is currently down" }],
     "maintenance": []
   },
