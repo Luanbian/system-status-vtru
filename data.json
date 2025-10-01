@@ -2,16 +2,24 @@
   "_comment": "the syntax should be { message:string } in array of status level",
   "_example": "{ \"warn\": [ { \"message\": \"some warning\" } ] }",
   "search": {
-    "warn": [
-      { "message": "Test message" },
-      { "message": "Search is currently experiencing high latency." }
-    ],
-    "error": [{ "message": "Search service is currently down" }],
+    "warn": [],
+    "error": [],
     "maintenance": []
   },
   "studio": {
-    "warn": [],
-    "error": [{ "message": "Studio consing currently down" }],
+    "warn": [
+      {
+        "message": "Studio is currently experiencing intermittent issues."
+      },
+      {
+        "message": "Studio is currently experiencing intermittent."
+      }
+    ],
+    "error": [
+      {
+        "message": "Studio is currently experiencing Error."
+      }
+    ],
     "maintenance": []
   },
   "admin": {
@@ -25,13 +33,35 @@
     "maintenance": []
   },
   "stacks": {
-    "warn": [],
-    "error": [],
+    "warn": [
+      {
+        "message": "Stacks is currently experiencing intermittent issues."
+      },
+      {
+        "message": "Stacks is currently experiencing intermittent."
+      }
+    ],
+    "error": [
+      {
+        "message": "Stacks is currently experiencing Error."
+      }
+    ],
     "maintenance": []
   },
   "stores": {
-    "warn": [],
-    "error": [],
+    "warn": [
+      {
+        "message": "Stores is currently experiencing intermittent issues."
+      },
+      {
+        "message": "Stores is currently experiencing intermittent."
+      }
+    ],
+    "error": [
+      {
+        "message": "Stores is currently experiencing Error."
+      }
+    ],
     "maintenance": []
   }
 }
