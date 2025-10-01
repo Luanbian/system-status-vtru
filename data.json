@@ -11,7 +11,7 @@
   },
   "studio": {
     "warn": [],
-    "error": [],
+    "error": [{ "message": "Studio consing currently down" }],
     "maintenance": []
   },
   "admin": {
