@@ -23,45 +23,29 @@
     "maintenance": []
   },
   "admin": {
-    "warn": [],
-    "error": [],
-    "maintenance": []
-  },
-  "slideshow": {
-    "warn": [],
-    "error": [],
+    "warn": [
+      {
+        "message": "Admin is currently experiencing intermittent issues."
+      },
+      {
+        "message": "Admin is currently experiencing intermittent."
+      }
+    ],
+    "error": [
+      {
+        "message": "Admin is currently experiencing Error."
+      }
+    ],
     "maintenance": []
   },
   "stacks": {
-    "warn": [
-      {
-        "message": "Stacks is currently experiencing intermittent issues."
-      },
-      {
-        "message": "Stacks is currently experiencing intermittent."
-      }
-    ],
-    "error": [
-      {
-        "message": "Stacks is currently experiencing Error."
-      }
-    ],
+    "warn": [],
+    "error": [],
     "maintenance": []
   },
   "stores": {
-    "warn": [
-      {
-        "message": "Stores is currently experiencing intermittent issues."
-      },
-      {
-        "message": "Stores is currently experiencing intermittent."
-      }
-    ],
-    "error": [
-      {
-        "message": "Stores is currently experiencing Error."
-      }
-    ],
+    "warn": [],
+    "error": [],
     "maintenance": []
   }
 }
