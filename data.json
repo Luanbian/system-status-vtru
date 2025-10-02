@@ -2,11 +2,7 @@
   "_comment": "the syntax should be { message:string } in array of status level",
   "_example": "{ \"warn\": [ { \"message\": \"some warning\" } ] }",
   "search": {
-    "info": [
-      {
-        "message": "Search is working fine"
-      }
-    ],
+    "info": [],
     "warn": [],
     "error": [],
     "maintenance": []
@@ -17,19 +13,8 @@
         "message": "Xibit is beta software. For the first 30 days after your initial consignment, no funds may be withdrawn."
       }
     ],
-    "warn": [
-      {
-        "message": "Studio is currently experiencing intermittent issues."
-      },
-      {
-        "message": "Studio is currently experiencing intermittent."
-      }
-    ],
-    "error": [
-      {
-        "message": "Studio is currently experiencing Error."
-      }
-    ],
+    "warn": [],
+    "error": [],
     "maintenance": []
   },
   "admin": {
@@ -50,21 +35,13 @@
     "maintenance": []
   },
   "stacks": {
-    "info": [
-      {
-        "message": "Stacks is working fine"
-      }
-    ],
+    "info": [],
     "warn": [],
     "error": [],
     "maintenance": []
   },
   "stores": {
-    "info": [
-      {
-        "message": "Stores is working fine"
-      }
-    ],
+    "info": [],
     "warn": [],
     "error": [],
     "maintenance": []
