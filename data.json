@@ -18,24 +18,9 @@
     "maintenance": []
   },
   "admin": {
-    "info": [
-      {
-        "message": "Admin is working fine"
-      }
-    ],
-    "warn": [
-      {
-        "message": "Admin is currently experiencing intermittent issues."
-      },
-      {
-        "message": "Admin is currently experiencing intermittent."
-      }
-    ],
-    "error": [
-      {
-        "message": "Admin is currently experiencing Error."
-      }
-    ],
+    "info": [],
+    "warn": [],
+    "error": [],
     "maintenance": []
   },
   "stacks": {
