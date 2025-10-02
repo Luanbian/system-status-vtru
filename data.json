@@ -18,7 +18,11 @@
     "maintenance": []
   },
   "admin": {
-    "info": [],
+    "info": [
+      {
+        "message": "Admin is working fine"
+      }
+    ],
     "warn": [
       {
         "message": "Admin is currently experiencing intermittent issues."
